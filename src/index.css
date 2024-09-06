@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+}
+
+.left {
+  background-color: #616161;
+  border: 1px solid blue;
+  width: 836px;
+  height: 689px;
+  top: 96px;
+  left: 29px;
+  margin-right: 29px;
+  border-radius: 27px;
+
+
+}
+
+.left:hover {
+  border: 2px solid blue;
+}
+
+.first {
+  background-color: #363C43;
+  /* border: 1px solid blue; */
+  /* border: 2px solid black; */
+  height: 316px;
+  width: 720px;
+  top: 96px;
+  left: 922px;
+  margin-bottom: 32px;
+  border-radius: 27px;
+  padding-top: 20px;
+}
+
+.rec {
+  background-color: #171717;
+  border-radius: 23px;
+  margin-left: 47px;
+  height: 53px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  list-style: none;
+  width: 597px;
+  gap: 6px;
+}
+
+.rec ul {
+  display: flex;
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+}
+
+li {
+  width: 195px;
+  height: 49px;
+  border-radius: 16px;
+  padding: 10px 24px;
+  list-style: none;
+  margin: 0;
+  /* Remove margin from list items if not needed */
+  box-sizing: border-box;
+  /* Ensure padding and border are included in width and height */
+}
+
+li:hover {
+  background-color: grey;
+  border-radius: 23px;
+}
+
+.layout {
+  width: 611px;
+  height: 175px;
+  top: 210px;
+  left: 975px;
+  color: #969696;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+
+}
+
+
+.second {
+  background-color: #363C43;
+  height: 330px;
+  top: 453px;
+  left: 922px;
+  width: 720px;
+  border-radius: 27px;
+}
+
+.bttn {
+  width: 149px;
+  height: 62px;
+  margin-top: 37px;
+  margin-left: 20px;
+  border-radius: 27px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 800;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  font-size: 20px;
+
+}
+
+.img {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 6.29px;
+  align-items: center;
+  color: white;
+  background-color: #6F787C;
+  border-radius: 23px;
+  margin: 23px;
+  padding: 18px;
+  border: 1px solid gray;
+  top: 400px;
+  margin-top: 40px;
+  margin-left: 212px;
+}
+
+.lr{
+  display: flex;
+  justify-content: end;
+  margin-top: -70px;
+  margin-left: 212px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+ 
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  top: 48px;
+  left: 518px;
+  background-color: #333;
+  opacity: 0.7;
+  box-shadow: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #eee;
+  font-size: 24px;
+
+
+}
+
+
+
+/* . {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.gallery-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gallery-header h2 {
+  margin: 0;
+}
+
+.add-image-button, .arrow-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 23px;
+}
